@@ -228,11 +228,11 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
-#ifndef LV_ATTRIBUTE_IMG_NICEVIEW_HERMIT
-#define LV_ATTRIBUTE_IMG_NICEVIEW_HERMIT
+#ifndef LV_ATTRIBUTE_IMG_HERMIT_TECH
+#define LV_ATTRIBUTE_IMG_HERMIT_TECH
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_HT uint8_t hermit_tech_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_HERMIT_TECH uint8_t hermit_tech_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
